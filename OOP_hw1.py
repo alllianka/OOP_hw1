@@ -37,14 +37,8 @@ class Reviewer(Mentor):
 
 lecturer = Lecturer('Иван', 'Иванов')
 reviewer = Reviewer('Пётр', 'Петров')
-student = Student("Aliya", "Koroleva", "W")
-
-print(student.courses_in_progress, student.name)
 print(isinstance(lecturer, Mentor)) # True
 print(isinstance(reviewer, Mentor)) # True
 print(lecturer.courses_attached)    # []
 print(reviewer.courses_attached)    # []
-
-
-
 
