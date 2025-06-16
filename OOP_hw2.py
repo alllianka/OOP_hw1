@@ -29,7 +29,6 @@ class Lecturer(Mentor):
         super().__init__(name, surname)
         self.courses_attached = []
         self.grades = {}
-    pass
 
 
 class Reviewer(Mentor):
