@@ -24,15 +24,10 @@ class Mentor:
             return 'Ошибка'
 
 class Lecturer(Mentor):
-    def __int__(self, name, surname):
-        self.name = name
-        self.surname = surname
-
+    pass
 
 class Reviewer(Mentor):
-    def __int__(self, name, surname):
-        self.name = name
-        self.surname = surname
+    pass
 
 
 lecturer = Lecturer('Иван', 'Иванов')
@@ -41,4 +36,3 @@ print(isinstance(lecturer, Mentor)) # True
 print(isinstance(reviewer, Mentor)) # True
 print(lecturer.courses_attached)    # []
 print(reviewer.courses_attached)    # []
-
